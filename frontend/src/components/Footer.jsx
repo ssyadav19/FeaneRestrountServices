@@ -36,7 +36,7 @@ const Footer = () => {
           {/* Feane Info */}
           <div className="flex-1 space-y-4 flex flex-col items-center">
             <h2 className="text-3xl font-semibold dancing-script">Feane</h2>
-            <p className="max-w-md text-center">
+            <p className="max-w-md text-center text-gray-300">
               Necessary, making this the first true generator on the Internet.
               It uses a dictionary of over 200 Latin words, combined with
             </p>
@@ -64,13 +64,13 @@ const Footer = () => {
             <h4 className="text-3xl font-semibold dancing-script">
               Opening Hours
             </h4>
-            <p>Everyday</p>
-            <p>10.00 Am - 10.00 Pm</p>
+            <p className="text-gray-300">Everyday</p>
+            <p className="text-gray-300">10.00 Am - 10.00 Pm</p>
           </div>
         </div>
 
         {/* Footer Bottom */}
-        <div className="text-center mt-10 space-y-2 text-sm text-gray-400">
+        <div className="text-center mt-10 space-y-4 text-md text-gray-100">
           <p>© 2025 All Rights Reserved By Free Html Templates</p>
           <p>© Distributed By ThemeWagon</p>
         </div>
